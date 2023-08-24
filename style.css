@@ -1,0 +1,153 @@
+body{
+    background-image: linear-gradient(to right, rgb(102, 191, 161), rgb(27, 38, 161));
+}
+*{
+    scroll-behavior: smooth;
+
+}
+
+
+
+/* HEADER */
+header{
+    position: fixed;
+}
+.navbar ul{
+    margin-left: 77.5%;
+    width: 15cm;
+    background-color: white;
+    border-radius: 1cm;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 20px;
+    transition: background-color 0.5s ease;
+    transition: color 0.7s ease;
+}
+
+.navbar ul li a:hover{
+    color: white;
+}
+
+.navbar ul:hover{
+    background-color: rgb(1, 95, 109);
+}
+
+
+
+
+
+
+/* ABOUT */
+
+
+
+.name-line{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.name-line h1{
+    font-size: 100px;
+}
+
+.name-line h1 span{
+    color: white;
+}
+
+
+.profile-img img{
+    width: 350px;
+    height: 350px;
+    /* border-top-right-radius: 5cm;
+    border-top-left-radius: 5cm; */
+    border-radius: 1cm;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.about-content{
+    display: flex;
+    align-items: self-start;
+}
+
+.about-bio{
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+.about-bio h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.about-bio h1 span{
+    color: white;
+}
+
+.about-bio p{
+    font-size: x-large;
+    padding-right: 50px;
+    color: black;
+}
+
+.icons{
+    margin-top: -30px;
+    margin-left: 210px;
+}
+
+.icons .icon-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+
+
+
+
+/* SKILLS */
+
+#skills{
+    margin-top: 150px;
+}
+#skills h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.skillssection{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.skill{
+    border: solid;
+    background-color: black;
+    margin-left: 30px;
+    width: 7cm;
+}
+.skill img{
+    width: 100px;
+    margin-left: 30%;
+    padding-top: 25px;
+}
+.skill p{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
